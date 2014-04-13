@@ -22,6 +22,7 @@
 		1DDC11EA18FAE92B00E47140 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDC11CE18FAE92B00E47140 /* CoreData.framework */; };
 		1DDC11F218FAE92B00E47140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DDC11F018FAE92B00E47140 /* InfoPlist.strings */; };
 		1DDC11F418FAE92B00E47140 /* solarsystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC11F318FAE92B00E47140 /* solarsystemTests.m */; };
+		1DDC11FF18FAE96F00E47140 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC11FE18FAE96F00E47140 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1DDC11EF18FAE92B00E47140 /* solarsystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "solarsystemTests-Info.plist"; sourceTree = "<group>"; };
 		1DDC11F118FAE92B00E47140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DDC11F318FAE92B00E47140 /* solarsystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = solarsystemTests.m; sourceTree = "<group>"; };
+		1DDC11FD18FAE96F00E47140 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1DDC11FE18FAE96F00E47140 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				1DDC11D918FAE92B00E47140 /* AppDelegate.h */,
 				1DDC11DA18FAE92B00E47140 /* AppDelegate.m */,
+				1DDC11FD18FAE96F00E47140 /* RootViewController.h */,
+				1DDC11FE18FAE96F00E47140 /* RootViewController.m */,
 				1DDC11DF18FAE92B00E47140 /* Images.xcassets */,
 				1DDC11DC18FAE92B00E47140 /* solarsystem.xcdatamodeld */,
 				1DDC11D118FAE92B00E47140 /* Supporting Files */,
@@ -250,6 +255,7 @@
 			files = (
 				1DDC11DB18FAE92B00E47140 /* AppDelegate.m in Sources */,
 				1DDC11DE18FAE92B00E47140 /* solarsystem.xcdatamodeld in Sources */,
+				1DDC11FF18FAE96F00E47140 /* RootViewController.m in Sources */,
 				1DDC11D718FAE92B00E47140 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
