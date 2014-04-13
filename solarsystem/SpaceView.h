@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  SpaceView.h
 //  solarsystem
 //
 //  Created by Active-ILG on 13/04/2014.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SpaceView.h"
 
-@interface RootViewController : UIViewController
+@interface SpaceView : UIView
+
 @end

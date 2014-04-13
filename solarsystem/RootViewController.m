@@ -18,11 +18,13 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        [self setView:[[SpaceView alloc]init]];
     }
     return self;
 }
-
+-(SpaceView *)spaceView{
+    return (SpaceView *)self.view;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
